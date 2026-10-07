@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.7.1"
+  version: "2.8.0"
 
 package:
   name: openreview-py
@@ -11,7 +11,7 @@ package:
 source:
   # the PyPI artifact: openreview-py publishes a wheel only (no sdist)
   url: https://github.com/openreview/openreview-py/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: c253b9c853eeb9171a825d2a7282a9c3d8e9f1ecf84544db1d496da548e76d52
+  sha256: dae4a84739bc1f87c41415112a3625dcae28617382a321568e0a318dd5a51c5c
 
 build:
   number: 0
